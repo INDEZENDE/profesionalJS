@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de evento E6</title>
+</head>
+<body>
+
+      <h1>hola</h1>
+      <main class="container">
+          <video class="movie">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" />
+          </video>
+    
+          <button>Play/Pause</button>
+        </main>
+
+    <script>
+        const video = document.querySelector ('video');
+        const button = document.querySelector ('button');
+        button.onclick = () => video.play();
+    </script>
+</body>
+</html>
